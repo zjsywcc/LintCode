@@ -37,7 +37,7 @@ public class Main {
         return dp[n] > sum / 2;
     }
 
-    // Reverse with memory version:
+    // Recursive with memory version:
     public static boolean firstWillWin(int[] values) {
         int[] dp = new int[values.length + 1];
         boolean[] flag = new boolean[values.length + 1];

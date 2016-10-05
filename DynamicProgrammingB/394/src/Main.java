@@ -23,7 +23,7 @@ public class Main {
         return dp[n];
     }
 
-    // Reverse with memory version:
+    // Recursive with memory version:
     public static boolean firstWillWin(int n) {
         boolean[] dp = new boolean[n + 1];
         boolean[] flag = new boolean[n + 1];
